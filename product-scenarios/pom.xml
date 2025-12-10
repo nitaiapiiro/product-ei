@@ -57,7 +57,7 @@
     </build>
 
     <properties>
-        <product.ei.version>6.4.0</product.ei.version>
+        <product.ei.version>6.5.0</product.ei.version>
         <axis2.wso2.version>1.6.1-wso2v28</axis2.wso2.version>
         <commons.logging.version>1.1</commons.logging.version>
         <carbon.kernel.version>4.4.36</carbon.kernel.version>
