@@ -25,7 +25,7 @@
         <artifactId>wso2</artifactId>
         <version>5</version>
         <!-- Empty relative path tag added to suppress warning-->
-        <relativePath />
+        <relativePath/>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -37,7 +37,7 @@
 
     <properties>
 
-        <carbon.analytics.version>2.1.22</carbon.analytics.version>
+        <carbon.analytics.version>2.1.27</carbon.analytics.version>
         <siddhi.version>4.5.9</siddhi.version>
 
         <carbon.analytics-common.version>6.1.26</carbon.analytics-common.version>
@@ -1899,7 +1899,7 @@
                         <configuration>
                             <tasks>
                                 <replace dir="target/wso2carbon-kernel-${carbon.kernel.version}/wso2" token="false" value="true">
-                                    <include name="**/bundles.info" />
+                                    <include name="**/bundles.info"/>
                                 </replace>
                             </tasks>
                         </configuration>
@@ -1912,19 +1912,19 @@
                         <phase>install</phase>
                         <configuration>
                             <tasks>
-                                <delete dir="target/archive-tmp" />
-                                <delete dir="target/dependency-maven-plugin-markers" />
-                                <delete dir="target/org.eclipse.equinox.executable-3.5.0.v20110530-7P7NFUFFLWUl76mart" />
-                                <delete dir="target/p2-repo" />
-                                <delete file="target/tmp" />
-                                <delete dir="target/wso2carbon-kernel-${carbon.kernel.version}" />
-                                <delete dir="target/antrun" />
-                                <delete dir="target/maven-shared-archive-resources" />
-                                <delete dir="target/findbugs" />
-                                <delete file="target/checkstyle-cachefile" />
-                                <delete file="target/checkstyle-checker.xml" />
-                                <delete file="target/checkstyle-result.xml" />
-                                <delete file="target/checkstyle-suppressions.xml" />
+                                <delete dir="target/archive-tmp"/>
+                                <delete dir="target/dependency-maven-plugin-markers"/>
+                                <delete dir="target/org.eclipse.equinox.executable-3.5.0.v20110530-7P7NFUFFLWUl76mart"/>
+                                <delete dir="target/p2-repo"/>
+                                <delete file="target/tmp"/>
+                                <delete dir="target/wso2carbon-kernel-${carbon.kernel.version}"/>
+                                <delete dir="target/antrun"/>
+                                <delete dir="target/maven-shared-archive-resources"/>
+                                <delete dir="target/findbugs"/>
+                                <delete file="target/checkstyle-cachefile"/>
+                                <delete file="target/checkstyle-checker.xml"/>
+                                <delete file="target/checkstyle-result.xml"/>
+                                <delete file="target/checkstyle-suppressions.xml"/>
                             </tasks>
                         </configuration>
                         <goals>
@@ -1969,7 +1969,7 @@
                     <xmlOutput>true</xmlOutput>
                     <findbugsXmlOutputDirectory>${project.build.directory}/findbugs</findbugsXmlOutputDirectory>
                     <!--Exclude sources-->
-                    <excludeFilterFile />
+                    <excludeFilterFile/>
                     <plugins>
                         <plugin>
                             <groupId>com.h3xstream.findsecbugs</groupId>
