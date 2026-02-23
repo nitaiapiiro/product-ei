@@ -1850,7 +1850,7 @@
         <elk.httpcore.version>4.4.11</elk.httpcore.version>
 
         <!-- Log4j2 Version -->
-        <pax.logging.api.version>1.10.1</pax.logging.api.version>
+        <pax.logging.api.version>1.12.13</pax.logging.api.version>
 
         <!-- Maven Plugin Version -->
         <maven.build.helper.plugin.version>1.8</maven.build.helper.plugin.version>
