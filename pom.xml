@@ -1845,7 +1845,7 @@
         <fasterxml.jackson.version>2.9.8.wso2v1</fasterxml.jackson.version>
 
         <!-- Elasticsearch Version -->
-        <elasticsearch.version>7.1.0</elasticsearch.version>
+        <elasticsearch.version>7.17.8</elasticsearch.version>
         <elk.httpclient.version>4.5.8</elk.httpclient.version>
         <elk.httpcore.version>4.4.11</elk.httpcore.version>
 
