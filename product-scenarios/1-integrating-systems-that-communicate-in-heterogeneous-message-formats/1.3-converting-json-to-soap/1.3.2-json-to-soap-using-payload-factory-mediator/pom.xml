@@ -88,7 +88,7 @@
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>integration-test-utils</artifactId>
-            <version>6.4.0</version>
+            <version>6.6.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.wso2.carbon.mediation</groupId>
