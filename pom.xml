@@ -1710,7 +1710,7 @@
         <carbon-deployment.feature.imp.version>${carbon.deployment.version}</carbon-deployment.feature.imp.version>
 
         <!-- Carbon Registry version-->
-        <carbon.registry.version>4.7.24</carbon.registry.version>
+        <carbon.registry.version>4.10.3</carbon.registry.version>
 
         <!-- Carbon Identity version-->
         <carbon.identity-inbound-auth-sts.version>5.4.3</carbon.identity-inbound-auth-sts.version>
