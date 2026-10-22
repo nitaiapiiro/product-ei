@@ -1799,7 +1799,7 @@
         <wss4j.version>1.5.11-wso2v18</wss4j.version>
         <!--<emma.version>2.1.5320</emma.version>-->
         <jacoco.agent.version>0.8.4</jacoco.agent.version>
-        <wso2.h2.orbit.version>1.4.199.wso2v1</wso2.h2.orbit.version>
+        <wso2.h2.orbit.version>1.4.200.wso2v1</wso2.h2.orbit.version>
         <org.apache.cxf.version>3.2.8</org.apache.cxf.version>
         <org.springframework.version>4.1.5.RELEASE</org.springframework.version>
         <org.apache.tomcat>7.0.85</org.apache.tomcat>
